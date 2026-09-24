@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-dpla",
+  "version": "0.1.0",
+  "description": "DPLA — the Digital Public Library of America.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-dpla": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "dpla"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-dpla.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-3917c012875b603d9a8f3d3d6f49f2a6bbc9e29ebc84bc3b7a0a7adeef90ef27",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
+  }
+}
